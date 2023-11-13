@@ -10,7 +10,7 @@ x <- c(1,2,3,4,5)
 y <- c(4,2,0,6,9)
 data<- data.frame(x,y)
 fig01 <- data %>% ggplot(aes(x=x,y=y))+
-  geom_point(col="darkblue",size=5,shape="o")+
+  geom_point(col="darkblue",size=5,shape="l")+
   geom_smooth(method="lm", col="yellow",fill="orange")
 fig01
 ggsave("./Figures/fig01.png", plot=fig01,width=1920, height=1068, units="px")
