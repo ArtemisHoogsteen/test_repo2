@@ -15,4 +15,3 @@ fig01 <- data %>% ggplot(aes(x=x,y=y))+
 fig01
 ggsave("./Figures/fig01.png", plot=fig01,width=1920, height=1068, units="px")
 
-  
